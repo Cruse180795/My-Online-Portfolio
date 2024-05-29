@@ -1,0 +1,24 @@
+{
+  "name": "myonlineportfolio",
+  "version": "1.0.0",
+  "description": "My Personal Online Portfolio",
+  "main": "index.js",
+  "scripts": {
+    "watch": "postcss \"./src/css/tailwind.css\" -o \"./public/css/tailwind.min.css\" --watch",
+    "build": "vite build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "vite": "^5.2.12"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.19",
+    "cssnano": "^7.0.1",
+    "postcss-cli": "^11.0.0",
+    "postcss-nested": "^6.0.1",
+    "tailwindcss": "^3.4.3",
+    "tailwindcss-animated": "^1.1.0"
+  }
+}
